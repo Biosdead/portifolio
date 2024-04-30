@@ -58,6 +58,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <a href="https://biosdead.github.io/Curriculum/" class="w3-bar-item w3-button" style="width:25% !important">CURRÍCULO</a>
+    <a href="./indexEn.html" class="w3-bar-item w3-button" style="width:25% !important">ENGLISH</a>
   </div>
 </div>
 
@@ -244,11 +246,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div><br>
     <p>Me envie uma mensagem:</p>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+    <form action="https://formspree.io/f/xdoqbgob" method="POST">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Assunto" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensagem" required name="Message"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensagem" required name="message"></p>
       <p>
         <button class="w3-button w3-light-grey w3-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> Enviar Mensagem
@@ -257,6 +259,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </form>
   <!-- End Contact Section -->
   </div>
+
+  <!-- modify this form HTML and place wherever you want your form -->
+<form
+action="https://formspree.io/f/xdoqbgob"
+method="POST"
+>
+<label>
+  Your email:
+  <input type="email" name="email">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
